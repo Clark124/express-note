@@ -27,9 +27,9 @@ passport.use(new JirenguStrategy({
     }))
 
 passport.use(new GitHubStrategy({
-    clientID: '70786e5bebe72594ad57',
-    clientSecret: '7197d9196be1ac5fa4b5a94c855082297cd8a2a4',
-    callbackURL: "http://127.0.0.1:3000/auth/github/callback"
+    clientID: '3b0dc08e6560226e26db',
+    clientSecret: '4274194c7eb2e8c7aadc6f96c5a306b5eb75854a',
+    callbackURL: "http://clark123.site/auth/github/callback"
   },
 //   function(accessToken, refreshToken, profile, cb) {
 //     User.findOrCreate({ githubId: profile.id }, function (err, user) {
